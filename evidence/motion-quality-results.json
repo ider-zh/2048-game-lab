@@ -1,0 +1,2706 @@
+{
+  "actual": {
+    "systemReduced": false,
+    "mode": "system",
+    "version": "研究模式  v0.5"
+  },
+  "results": [
+    {
+      "check": "visible homepage, actual OS preference, explicit full mode, six real AI steps",
+      "actual": {
+        "systemReduced": false,
+        "mode": "system",
+        "version": "研究模式  v0.5"
+      }
+    },
+    {
+      "name": "two sources become one",
+      "values": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "expected": [
+        4
+      ],
+      "merges": 1,
+      "data": [
+        {
+          "t": 0.5,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 30.199999928474426,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 61.60000002384186,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 94,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 123.89999997615814,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 155,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 186.60000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 279.82110595703125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 218.19999992847443,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 256.455810546875,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 248.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 214.26068115234375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 279.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 174.14471435546875,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 311.1999999284744,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 145.69920349121094,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 342.60000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 126.0972900390625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 373.1999999284744,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 112.62077331542969,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 404.39999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 103.3916015625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 435.89999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 97.35995483398438,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 466.89999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 93.76152038574219,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 501.60000002384186,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 531.2999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.993969, 0, 0, 0.993969, 0, 0)",
+              "ring": "0.264601"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 561.6999999284744,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.04871, 0, 0, 1.04871, 0, 0)",
+              "ring": "0.468226"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 591.8999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.07485, 0, 0, 1.07485, 0, 0)",
+              "ring": "0.588384"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 623.3999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.03684, 0, 0, 1.03684, 0, 0)",
+              "ring": "0.501458"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 655.1999999284744,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.00511, 0, 0, 1.00511, 0, 0)",
+              "ring": "0.362579"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 686.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.986629, 0, 0, 0.986629, 0, 0)",
+              "ring": "0.241183"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.585945,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 717.3999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+              "ring": "0.138617"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.870744,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 748.6999999284744,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.995421, 0, 0, 0.995421, 0, 0)",
+              "ring": "0.0587695"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.970006,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 780.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.999201, 0, 0, 0.999201, 0, 0)",
+              "ring": "0.00946488"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.998865,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 811.6000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 843.1999999284744,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 875.5,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        }
+      ]
+    },
+    {
+      "name": "two simultaneous merges",
+      "values": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "expected": [
+        4,
+        4
+      ],
+      "merges": 2,
+      "data": [
+        {
+          "t": 0.30000007152557373,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 29.899999976158142,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 61.60000002384186,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 93.70000004768372,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 188.8125,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 285.703125,
+              "transition": "0s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 382.59375,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 123.60000002384186,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 188.8125,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 285.703125,
+              "transition": "0s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 382.59375,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 156,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 188.8125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 285.703125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 382.59375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 186.39999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 185.87149047851562,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 282.7621154785156,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 376.71173095703125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 217.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 174.1333770751953,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 271.02398681640625,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 353.2355041503906,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 249,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 153.09127807617188,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 249.98190307617188,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 311.15130615234375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 280.2000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 133.03329467773438,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 229.92391967773438,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 271.03533935546875,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 312.3000000715256,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 118.81053924560547,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 215.701171875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 242.58982849121094,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 342.10000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 109.00958251953125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 205.90020751953125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 222.9879150390625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 374.2000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 102.27132415771484,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 199.16195678710938,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 209.5113983154297,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 405.3000000715256,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 97.65673828125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 194.54736328125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 200.2822265625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 435.89999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 94.64091491699219,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 191.5315399169922,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 194.25057983398438,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 467.39999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "1",
+              "to": "0",
+              "x": 92.8416976928711,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "1",
+              "x": 189.73233032226562,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 190.6521453857422,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 501.7000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 0)",
+              "ring": "0"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 530.3999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.994177, 0, 0, 0.994177, 0, 0)",
+              "ring": "0.265354"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.994177, 0, 0, 0.994177, 0, 0)",
+              "ring": "0.265354"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 562.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.04885, 0, 0, 1.04885, 0, 0)",
+              "ring": "0.468763"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.04885, 0, 0, 1.04885, 0, 0)",
+              "ring": "0.468763"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 593,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.07485, 0, 0, 1.07485, 0, 0)",
+              "ring": "0.588384"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.07485, 0, 0, 1.07485, 0, 0)",
+              "ring": "0.588384"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 623.8000000715256,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.03672, 0, 0, 1.03672, 0, 0)",
+              "ring": "0.500986"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.03672, 0, 0, 1.03672, 0, 0)",
+              "ring": "0.500986"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 655.3000000715256,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.00511, 0, 0, 1.00511, 0, 0)",
+              "ring": "0.362579"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1.00511, 0, 0, 1.00511, 0, 0)",
+              "ring": "0.362579"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 686.6000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.986629, 0, 0, 0.986629, 0, 0)",
+              "ring": "0.241183"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.986629, 0, 0, 0.986629, 0, 0)",
+              "ring": "0.241183"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.585945,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 717.2000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+              "ring": "0.138617"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.989681, 0, 0, 0.989681, 0, 0)",
+              "ring": "0.138617"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.870744,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 748.8999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.995421, 0, 0, 0.995421, 0, 0)",
+              "ring": "0.0587695"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.995421, 0, 0, 0.995421, 0, 0)",
+              "ring": "0.0587695"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.970006,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 780.1000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.999201, 0, 0, 0.999201, 0, 0)",
+              "ring": "0.00946488"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(0.999201, 0, 0, 0.999201, 0, 0)",
+              "ring": "0.00946488"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.998865,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 812,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 842,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            },
+            {
+              "text": "4",
+              "tier": "small",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 874.8999999761581,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        }
+      ]
+    },
+    {
+      "name": "large-value merge",
+      "values": [
+        128,
+        0,
+        128,
+        0
+      ],
+      "expected": [
+        256
+      ],
+      "merges": 1,
+      "data": [
+        {
+          "t": 0.3999999761581421,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 33.10000002384186,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 62.89999997615814,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 95.20000004768372,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 126.60000002384186,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 158,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 189,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 279.7790222167969,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 219.70000004768372,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 256.3448791503906,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 251.79999995231628,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 214.26068115234375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 283.2999999523163,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 174.14471435546875,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 313.89999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 145.62416076660156,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 345.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 126.0972900390625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 376.39999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 112.62077331542969,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 406.7000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 103.3916015625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 438.2999999523163,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 97.35995483398438,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 469.89999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 93.7696533203125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 507.39999997615814,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 532.6000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(0.994177, 0, 0, 0.994177, 0, 0)",
+              "ring": "0.265354"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 562.7000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(1.04871, 0, 0, 1.04871, 0, 0)",
+              "ring": "0.468226"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 594.2999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(1.07485, 0, 0, 1.07485, 0, 0)",
+              "ring": "0.588384"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 625.2999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(1.03672, 0, 0, 1.03672, 0, 0)",
+              "ring": "0.500986"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 657.6000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(1.0052, 0, 0, 1.0052, 0, 0)",
+              "ring": "0.362996"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 688.7999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(0.986629, 0, 0, 0.986629, 0, 0)",
+              "ring": "0.241183"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.585945,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 719.2999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(0.989702, 0, 0, 0.989702, 0, 0)",
+              "ring": "0.138322"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.871254,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 750.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(0.995437, 0, 0, 0.995437, 0, 0)",
+              "ring": "0.0585581"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.970181,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 782.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(0.999201, 0, 0, 0.999201, 0, 0)",
+              "ring": "0.00946488"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.998865,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 813.3999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 844.2999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "256",
+              "tier": "large",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 876,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        }
+      ]
+    },
+    {
+      "name": "milestone merge",
+      "values": [
+        1024,
+        0,
+        1024,
+        0
+      ],
+      "expected": [
+        2048
+      ],
+      "merges": 1,
+      "data": [
+        {
+          "t": 0.5,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 30.5,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 61.40000009536743,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 93.10000002384186,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 124.30000007152557,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 155.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 285.703125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 186.70000004768372,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 279.8000793457031,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 217.70000004768372,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 256.400390625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 250.80000007152557,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 214.18899536132812,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 280.8000000715256,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 174.09014892578125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 311.60000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 145.73675537109375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 342.7000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 126.12315368652344,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 373.7000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 112.60296630859375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 406.10000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 103.37960815429688,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 436.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 97.35238647460938,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 467.7000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "0",
+              "to": "0",
+              "x": 91.921875,
+              "transition": "0.36s"
+            },
+            {
+              "from": "2",
+              "to": "0",
+              "x": 93.7574462890625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 506,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(0.92, 0, 0, 0.92, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 531.9000000953674,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(0.994073, 0, 0, 0.994073, 0, 0)",
+              "ring": "0.264978"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 561.2000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(1.04878, 0, 0, 1.04878, 0, 0)",
+              "ring": "0.468494"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 593,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(1.07484, 0, 0, 1.07484, 0, 0)",
+              "ring": "0.588285"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 624.1000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(1.03678, 0, 0, 1.03678, 0, 0)",
+              "ring": "0.501222"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 655.7000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(1.00507, 0, 0, 1.00507, 0, 0)",
+              "ring": "0.362371"
+            }
+          ],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 686.3000000715256,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(0.986615, 0, 0, 0.986615, 0, 0)",
+              "ring": "0.241003"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.586691,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 717.3000000715256,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(0.989691, 0, 0, 0.989691, 0, 0)",
+              "ring": "0.138469"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.870999,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 748.7000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(0.995414, 0, 0, 0.995414, 0, 0)",
+              "ring": "0.0588753"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.969919,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 780.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(0.999205, 0, 0, 0.999205, 0, 0)",
+              "ring": "0.00941676"
+            }
+          ],
+          "spawn": {
+            "opacity": 0.998878,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 811.3000000715256,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 842.7000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [
+            {
+              "text": "2048",
+              "tier": "milestone",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "ring": "0"
+            }
+          ],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 875.3000000715256,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        }
+      ]
+    },
+    {
+      "name": "slide without merge",
+      "values": [
+        0,
+        2,
+        0,
+        8
+      ],
+      "expected": [
+        2,
+        8
+      ],
+      "merges": 0,
+      "data": [
+        {
+          "t": 0.5,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 29.399999976158142,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 61.700000047683716,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 92.60000002384186,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 188.8125,
+              "transition": "0s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 382.59375,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 123.10000002384186,
+          "phase": "start",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 188.8125,
+              "transition": "0s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 382.59375,
+              "transition": "0s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 155.10000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 188.8125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 382.59375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 185.10000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 185.86097717285156,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 376.6907043457031,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 216.29999995231628,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 174.1611328125,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 353.291015625,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 248.20000004768372,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 153.05543518066406,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 311.0796203613281,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 279.7000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 133.06060791015625,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 271.0899658203125,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 311.2000000476837,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 118.7917709350586,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 242.5522918701172,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 341.39999997615814,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 108.99665832519531,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 222.96206665039062,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 373.5,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 102.26242065429688,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 209.49359130859375,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 404,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 97.65074157714844,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 200.27023315429688,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 435.60000002384186,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 94.63713073730469,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 194.24301147460938,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 466.2999999523163,
+          "phase": "moving",
+          "moving": [
+            {
+              "from": "1",
+              "to": "0",
+              "x": 92.84373474121094,
+              "transition": "0.36s"
+            },
+            {
+              "from": "3",
+              "to": "1",
+              "x": 190.65621948242188,
+              "transition": "0.36s"
+            }
+          ],
+          "merge": [],
+          "spawn": null
+        },
+        {
+          "t": 499.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 529.5,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 561.1000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 591.2000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 622.7999999523163,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 654.3999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 686,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0.586691,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 717,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0.871509,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 748.1000000238419,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0.970094,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 778.8999999761581,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 0.998878,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 811,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 841.2000000476837,
+          "phase": "settled",
+          "moving": [],
+          "merge": [],
+          "spawn": {
+            "opacity": 1,
+            "delay": "0.16s"
+          }
+        },
+        {
+          "t": 874.8999999761581,
+          "phase": "idle",
+          "moving": [],
+          "merge": [],
+          "spawn": null
+        }
+      ]
+    },
+    {
+      "check": "rapid four moves, replay, reset during replay, pause finishes current step"
+    },
+    {
+      "check": "fast mode and restore system preference"
+    }
+  ],
+  "errors": [],
+  "capturedFrames": 489
+}

@@ -1,0 +1,119 @@
+{
+  "engine": "2048-reference-1",
+  "algorithmVersion": "agents-2",
+  "seed": 2048,
+  "start": {
+    "board": [
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "score": 0,
+    "rng": 2050349876
+  },
+  "actions": [
+    {
+      "dir": "left",
+      "spawn": {
+        "index": 5,
+        "value": 4
+      },
+      "strategy": "random",
+      "algorithmVersion": "agents-2",
+      "params": {
+        "budget": 6000,
+        "depth": 3,
+        "horizon": 12
+      },
+      "ms": 0.2999999523162842
+    },
+    {
+      "dir": "left",
+      "spawn": {
+        "index": 2,
+        "value": 4
+      },
+      "strategy": "priority",
+      "algorithmVersion": "agents-2",
+      "params": {
+        "budget": 6000,
+        "depth": 3,
+        "horizon": 12
+      },
+      "ms": 0.19999992847442627
+    },
+    {
+      "dir": "left",
+      "spawn": {
+        "index": 6,
+        "value": 2
+      },
+      "strategy": "greedy",
+      "algorithmVersion": "agents-2",
+      "params": {
+        "budget": 6000,
+        "depth": 3,
+        "horizon": 12
+      },
+      "ms": 0.09999990463256836
+    },
+    {
+      "dir": "left",
+      "spawn": {
+        "index": 1,
+        "value": 2
+      },
+      "strategy": "heuristic",
+      "algorithmVersion": "agents-2",
+      "params": {
+        "budget": 6000,
+        "depth": 3,
+        "horizon": 12
+      },
+      "ms": 0.09999990463256836
+    },
+    {
+      "dir": "up",
+      "spawn": {
+        "index": 5,
+        "value": 2
+      },
+      "strategy": "expectimax",
+      "algorithmVersion": "agents-2",
+      "params": {
+        "budget": 6000,
+        "depth": 3,
+        "horizon": 12
+      },
+      "ms": 23.700000047683716
+    },
+    {
+      "dir": "right",
+      "spawn": {
+        "index": 11,
+        "value": 2
+      },
+      "strategy": "rollout",
+      "algorithmVersion": "agents-2",
+      "params": {
+        "budget": 6000,
+        "depth": 3,
+        "horizon": 12
+      },
+      "ms": 100.5
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "browser": "155.0.4283.45",
+  "checks": [
+    "desktop real intermediate translation; two merges + one spawn; score commits at landing",
+    "rapid four-direction keyboard queue commits four valid moves",
+    "replay actual recorded spawn and animated next step",
+    "reset during replay clears active and queued motion",
+    "AI pause settles in-flight accepted move then remains stopped",
+    "strategy switch, single step, 30ms AI and reset remain synchronized",
+    "homepage shares real tile motion and pause boundary",
+    "390px real touch swipe, merge and spawn, no horizontal overflow",
+    "reduced motion commits correctly without slide/scale animation"
+  ],
+  "samples": [
+    {
+      "samples": [
+        {
+          "phase": "start",
+          "x": 450.1875,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "phase": "start",
+          "x": 450.1875,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 450.1875,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 450.1875,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 450.1875,
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 448.3810729980469,
+          "transform": "matrix(1, 0, 0, 1, -1.80642, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 441.9940490722656,
+          "transform": "matrix(1, 0, 0, 1, -8.19344, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 429.32733154296875,
+          "transform": "matrix(1, 0, 0, 1, -20.8602, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 408.9599914550781,
+          "transform": "matrix(1, 0, 0, 1, -41.2275, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 381.9934997558594,
+          "transform": "matrix(1, 0, 0, 1, -68.194, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 353.3537292480469,
+          "transform": "matrix(1, 0, 0, 1, -96.8338, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 327.18603515625,
+          "transform": "matrix(1, 0, 0, 1, -123.001, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 305.31732177734375,
+          "transform": "matrix(1, 0, 0, 1, -144.87, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 287.26123046875,
+          "transform": "matrix(1, 0, 0, 1, -162.926, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 272.5035400390625,
+          "transform": "matrix(1, 0, 0, 1, -177.684, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 260.48382568359375,
+          "transform": "matrix(1, 0, 0, 1, -189.704, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 250.55828857421875,
+          "transform": "matrix(1, 0, 0, 1, -199.629, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 242.42108154296875,
+          "transform": "matrix(1, 0, 0, 1, -207.766, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 235.81231689453125,
+          "transform": "matrix(1, 0, 0, 1, -214.375, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 230.4242401123047,
+          "transform": "matrix(1, 0, 0, 1, -219.763, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 226.14364624023438,
+          "transform": "matrix(1, 0, 0, 1, -224.044, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 222.77586364746094,
+          "transform": "matrix(1, 0, 0, 1, -227.412, 0)"
+        },
+        {
+          "phase": "moving",
+          "x": 220.2334747314453,
+          "transform": "matrix(1, 0, 0, 1, -229.954, 0)"
+        }
+      ],
+      "arrivals": [
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        },
+        {
+          "merge": 2,
+          "spawn": 1
+        }
+      ]
+    }
+  ],
+  "replay": {
+    "engine": "2048-reference-1",
+    "algorithmVersion": "agents-2",
+    "seed": 2048,
+    "start": {
+      "board": [
+        2,
+        2,
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 0,
+      "rng": 2050349876
+    },
+    "actions": [
+      {
+        "dir": "left",
+        "spawn": {
+          "index": 6,
+          "value": 4
+        },
+        "strategy": "manual",
+        "algorithmVersion": "agents-2",
+        "params": {
+          "budget": 6000,
+          "depth": 3,
+          "horizon": 12
+        },
+        "ms": 0
+      },
+      {
+        "dir": "down",
+        "spawn": {
+          "index": 1,
+          "value": 4
+        },
+        "strategy": "manual",
+        "algorithmVersion": "agents-2",
+        "params": {
+          "budget": 6000,
+          "depth": 3,
+          "horizon": 12
+        },
+        "ms": 0
+      },
+      {
+        "dir": "right",
+        "spawn": {
+          "index": 5,
+          "value": 2
+        },
+        "strategy": "manual",
+        "algorithmVersion": "agents-2",
+        "params": {
+          "budget": 6000,
+          "depth": 3,
+          "horizon": 12
+        },
+        "ms": 0
+      },
+      {
+        "dir": "up",
+        "spawn": {
+          "index": 0,
+          "value": 2
+        },
+        "strategy": "manual",
+        "algorithmVersion": "agents-2",
+        "params": {
+          "budget": 6000,
+          "depth": 3,
+          "horizon": 12
+        },
+        "ms": 0
+      },
+      {
+        "dir": "left",
+        "spawn": {
+          "index": 5,
+          "value": 2
+        },
+        "strategy": "manual",
+        "algorithmVersion": "agents-2",
+        "params": {
+          "budget": 6000,
+          "depth": 3,
+          "horizon": 12
+        },
+        "ms": 0
+      }
+    ]
+  },
+  "errors": []
+}

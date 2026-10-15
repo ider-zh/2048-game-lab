@@ -1,0 +1,50 @@
+[
+  {
+    "version": "candidate",
+    "strategy": "rollout",
+    "params": {
+      "budget": 256,
+      "depth": 3,
+      "horizon": 12
+    },
+    "seed": 43000,
+    "score": 16132,
+    "max": 1024,
+    "steps": 951,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 4.369939327024186
+  },
+  {
+    "version": "candidate",
+    "strategy": "rollout",
+    "params": {
+      "budget": 256,
+      "depth": 3,
+      "horizon": 12
+    },
+    "seed": 43001,
+    "score": 6956,
+    "max": 512,
+    "steps": 468,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 4.662305769230773
+  },
+  {
+    "version": "candidate",
+    "strategy": "rollout",
+    "params": {
+      "budget": 256,
+      "depth": 3,
+      "horizon": 12
+    },
+    "seed": 43002,
+    "score": 12268,
+    "max": 1024,
+    "steps": 728,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 4.248484478021982
+  }
+]

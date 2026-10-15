@@ -1,0 +1,11 @@
+{
+  "browser": "155.0.4283.45",
+  "checks": [
+    "512 tile continues when legal",
+    "terminal 512 reports no legal actions, not score threshold",
+    "tiny budget still legal and completes",
+    "invalid worker reply: visible fallback, progress, pause, recovery",
+    "15s watchdog legal fallback and reset isolation"
+  ],
+  "passed": true
+}

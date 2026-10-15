@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "state": {
+    "reduced": true,
+    "mode": "full",
+    "duration": "0.36s"
+  },
+  "checks": [
+    "system reduced by default",
+    "explicit page opt-in overrides transition suppression",
+    "OS media query remains reduced",
+    "selection persists on reload",
+    "system mode restores reduction"
+  ]
+}

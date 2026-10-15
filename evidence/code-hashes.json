@@ -1,0 +1,6 @@
+{
+  "src/agents.ts": "05d5ddf2d6eea60e8faea80bedc6460c6ec5c3c989eb5497a4f776b6102959ea",
+  "src/engine.ts": "f868c7591e803ca51e57f761c115109b9741ff6f82193a07f224b8bff52b2b20",
+  "research/baseline-agents.mjs": "7d625326aee0491f5537e9d8fea22ab10e06a8befe5338dac6a76cf4cdaed145",
+  "research/candidate-agents.mjs": "bff300cd752210fe105715927875cd1f922087e3cec66b5df7c18ec7e9091574"
+}

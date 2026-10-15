@@ -1,0 +1,19 @@
+{
+  "browser": "155.0.4283.45",
+  "checks": [
+    "desktop render",
+    "keyboard manual",
+    "AI start pause",
+    "reset",
+    "six strategy single steps",
+    "save export import replay fork",
+    "six lessons navigation copy",
+    "20-game batch complete",
+    "batch cancel",
+    "stale worker reset",
+    "390px mobile no overflow",
+    "mobile touch swipe"
+  ],
+  "errors": [],
+  "batch": "REPRODUCIBLE BENCHMARK\n把直觉，交给数据验证。\n已完成\n\n完整对局运行到无合法动作。取消会保留已完成样本；算法使用同批种子不代表相同具体落点。\n\n策略\n随机合法动作\n固定方向优先\n即时合并贪心\n局面启发式\nExpectimax · 推荐\nMonte Carlo rollout\n样本数\n20\n100\n起始种子\n目标砖\n128\n256\n512\n1024\n2048\n4096\n开始评测\n取消评测\n\n即时合并贪心 · seeds 2048–2067 · budget 6000 / depth 3 / horizon 12\n\n完成样本\n20\n平均分\n3029.2\n中位分\n2742.0\n2048 达到率\n0.0%\n平均决策耗时\n0.04 ms\n\n达到率仅描述当前样本，不代表理论胜率。每局安全上限 20,000 步；截断样本将明确标记。\n\nSeed\t得分\t最高砖\t步数\t状态\n2048\t3676\t256\t316\t正常终局 · 无合法动作\n2049\t1508\t128\t160\t正常终局 · 无合法动作\n2050\t1984\t128\t199\t正常终局 · 无合法动作\n2051\t3404\t256\t282\t正常终局 · 无合法动作\n2052\t2848\t256\t243\t正常终局 · 无合法动作\n2053\t3036\t256\t258\t正常终局 · 无合法动作\n2054\t6860\t512\t478\t正常终局 · 无合法动作\n2055\t5956\t512\t417\t正常终局 · 无合法动作\n2056\t1668\t128\t179\t正常终局 · 无合法动作\n2057\t2340\t256\t195\t正常终局 · 无合法动作\n2058\t2812\t256\t236\t正常终局 · 无合法动作\n2059\t2588\t128\t239\t正常终局 · 无合法动作\n2060\t2200\t128\t209\t正常终局 · 无合法动作\n2061\t4864\t512\t343\t正常终局 · 无合法动作\n2062\t1560\t128\t159\t正常终局 · 无合法动作\n2063\t3520\t256\t299\t正常终局 · 无合法动作\n2064\t3756\t256\t307\t正常终局 · 无合法动作\n2065\t1640\t128\t166\t正常终局 · 无合法动作\n2066\t1692\t128\t175\t正常终局 · 无合法动作\n2067\t2672\t128\t250\t正常终局 · 无合法动作"
+}

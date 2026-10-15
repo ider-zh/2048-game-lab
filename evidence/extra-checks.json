@@ -1,0 +1,1 @@
+{"checks":["arbitrary custom board","100 completed random games","injected worker error visibly reported","worker recovered and resumed decision"],"passed":true}

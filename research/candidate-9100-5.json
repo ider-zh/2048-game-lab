@@ -1,0 +1,57 @@
+[
+  {
+    "version": "candidate",
+    "strategy": "heuristic",
+    "seed": 9100,
+    "score": 16564,
+    "max": 1024,
+    "steps": 987,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.05860678824721338
+  },
+  {
+    "version": "candidate",
+    "strategy": "heuristic",
+    "seed": 9101,
+    "score": 20940,
+    "max": 1024,
+    "steps": 1245,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.0466302811244979
+  },
+  {
+    "version": "candidate",
+    "strategy": "heuristic",
+    "seed": 9102,
+    "score": 14788,
+    "max": 1024,
+    "steps": 896,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.036788058035715325
+  },
+  {
+    "version": "candidate",
+    "strategy": "heuristic",
+    "seed": 9103,
+    "score": 27324,
+    "max": 2048,
+    "steps": 1425,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.03978659649122767
+  },
+  {
+    "version": "candidate",
+    "strategy": "heuristic",
+    "seed": 9104,
+    "score": 29572,
+    "max": 2048,
+    "steps": 1547,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.039603167420812824
+  }
+]

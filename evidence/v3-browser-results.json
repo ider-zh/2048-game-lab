@@ -1,0 +1,14 @@
+{
+  "browser": "155.0.4283.45",
+  "checks": [
+    "fresh landing auto starts genuine Worker game",
+    "pause/resume and real offscreen IntersectionObserver suspension",
+    "controlled document visibility event pauses calculation",
+    "real random-policy game reaches terminal and auto starts next seed",
+    "six lessons, four stages, exercises and actual clipboard success",
+    "expectimax chance branch and budget fallback explain actual output",
+    "classroom sends exact board/params/seed to lab; home remount restarts demo",
+    "390px mobile layout and reduced-motion auto start / control"
+  ],
+  "errors": []
+}

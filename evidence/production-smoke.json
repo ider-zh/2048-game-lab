@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "production homepage worker auto advance",
+    "direct hash classroom route and teaching worker",
+    "in-page glossary anchor preserves classroom"
+  ],
+  "errors": []
+}

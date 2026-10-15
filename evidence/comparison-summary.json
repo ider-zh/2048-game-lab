@@ -1,0 +1,72 @@
+{
+  "explorationSeeds": [
+    9000,
+    9001,
+    9002,
+    9003,
+    9004,
+    9100,
+    9101,
+    9102,
+    9103,
+    9104
+  ],
+  "evaluationSeeds": "41000–41019",
+  "baselineDefaults": {
+    "budget": 1600,
+    "depth": 2,
+    "horizon": 12
+  },
+  "candidateDefaults": {
+    "budget": 6000,
+    "depth": 3,
+    "horizon": 12
+  },
+  "note": "Frozen before held-out evaluation. Same environment seeds, not same spawn coordinates. Timing is hardware/load dependent.",
+  "summary": [
+    {
+      "version": "baseline",
+      "strategy": "heuristic",
+      "n": 20,
+      "mean": 6220.4,
+      "median": 6128,
+      "reached2048": 0,
+      "reached4096": 0,
+      "meanDecisionMs": 0.050875170068028004,
+      "nonterminalStops": 0
+    },
+    {
+      "version": "baseline",
+      "strategy": "expectimax",
+      "n": 20,
+      "mean": 27877.6,
+      "median": 27558,
+      "reached2048": 13,
+      "reached4096": 2,
+      "meanDecisionMs": 2.654436850868986,
+      "nonterminalStops": 0
+    },
+    {
+      "version": "candidate",
+      "strategy": "heuristic",
+      "n": 20,
+      "mean": 13170.6,
+      "median": 13286,
+      "reached2048": 2,
+      "reached4096": 0,
+      "meanDecisionMs": 0.044377093037894944,
+      "nonterminalStops": 0
+    },
+    {
+      "version": "candidate",
+      "strategy": "expectimax",
+      "n": 20,
+      "mean": 44970.4,
+      "median": 36168,
+      "reached2048": 19,
+      "reached4096": 8,
+      "meanDecisionMs": 12.039266542090099,
+      "nonterminalStops": 0
+    }
+  ]
+}

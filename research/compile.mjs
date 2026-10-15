@@ -1,0 +1,2 @@
+import ts from 'typescript';import fs from 'node:fs';
+for(const [input,output] of [['src/engine.ts','research/engine.mjs'],['research/baseline-agents.ts','research/baseline-agents.mjs'],['src/agents.ts','research/candidate-agents.mjs']]){let s=ts.transpileModule(fs.readFileSync(input,'utf8'),{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText.replaceAll("'./engine'","'./engine.mjs'");fs.writeFileSync(output,s);}

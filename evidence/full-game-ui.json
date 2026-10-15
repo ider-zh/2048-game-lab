@@ -1,0 +1,10 @@
+{
+  "seed": 41011,
+  "strategy": "expectimax",
+  "score": "8,328",
+  "steps": "591",
+  "max": 512,
+  "remainingLegal": [],
+  "reason": "no-legal-actions",
+  "errors": []
+}

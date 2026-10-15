@@ -136,3 +136,7 @@ v0.2 冻结参数后，在独立 seeds 41000–41019 上，启发式均分 6220.
 
 本轮没有任何远端写入尝试。此前审批阻塞保持不变；未部署。最新源码包为父目录 2048-lab-source-v0.5.zip（包含 dist 和视频）。
 
+
+## GitHub publication update — 2026-10-15
+
+Publication approval was restored for ider-zh/2048-game-lab. The v0.5 source, test evidence and a read-only GitHub Actions CI workflow are now being submitted to main. CI runs npm ci, typecheck, all unit tests and the production build on Node 24. No Cloudflare settings or deployment are part of this change. Earlier approval-blocker notes below/above are historical; use the current GitHub main commit and Actions result as the publication status.

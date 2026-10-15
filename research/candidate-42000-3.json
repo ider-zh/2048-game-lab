@@ -1,0 +1,112 @@
+[
+  {
+    "version": "candidate",
+    "strategy": "random",
+    "seed": 42000,
+    "score": 600,
+    "max": 64,
+    "steps": 84,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.0782904761904766
+  },
+  {
+    "version": "candidate",
+    "strategy": "random",
+    "seed": 42001,
+    "score": 1312,
+    "max": 128,
+    "steps": 135,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.1077081481481477
+  },
+  {
+    "version": "candidate",
+    "strategy": "random",
+    "seed": 42002,
+    "score": 592,
+    "max": 64,
+    "steps": 82,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.08488658536585335
+  },
+  {
+    "version": "candidate",
+    "strategy": "priority",
+    "seed": 42000,
+    "score": 3516,
+    "max": 256,
+    "steps": 294,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.05055748299319733
+  },
+  {
+    "version": "candidate",
+    "strategy": "priority",
+    "seed": 42001,
+    "score": 1440,
+    "max": 128,
+    "steps": 149,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.03897651006711479
+  },
+  {
+    "version": "candidate",
+    "strategy": "priority",
+    "seed": 42002,
+    "score": 2056,
+    "max": 128,
+    "steps": 216,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.054404166666665685
+  },
+  {
+    "version": "candidate",
+    "strategy": "greedy",
+    "seed": 42000,
+    "score": 2200,
+    "max": 128,
+    "steps": 200,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.06001049999999978
+  },
+  {
+    "version": "candidate",
+    "strategy": "greedy",
+    "seed": 42001,
+    "score": 3704,
+    "max": 256,
+    "steps": 312,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.03924615384615466
+  },
+  {
+    "version": "candidate",
+    "strategy": "greedy",
+    "seed": 42002,
+    "score": 5104,
+    "max": 512,
+    "steps": 371,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 0.03808490566037646
+  },
+  {
+    "version": "candidate",
+    "strategy": "rollout",
+    "seed": 42000,
+    "score": 27388,
+    "max": 2048,
+    "steps": 1430,
+    "remainingLegal": [],
+    "reason": "terminal",
+    "meanMs": 118.75662762237747
+  }
+]
