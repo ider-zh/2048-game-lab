@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "perf": {
+        "frames": 145,
+        "p95": 16.700000000000728,
+        "positions": 34
+      },
+      "fonts": {
+        "size": "79.2px",
+        "lineHeight": "93.456px"
+      },
+      "checks": [
+        "auto Worker",
+        "pause/reset/resume",
+        "offscreen pause",
+        "strategy story switch",
+        "no overflow",
+        "no animation/form settings",
+        "lab and classroom CTA"
+      ]
+    },
+    {
+      "width": 768,
+      "perf": {
+        "frames": 145,
+        "p95": 16.700000000000728,
+        "positions": 34
+      },
+      "fonts": {
+        "size": "57px",
+        "lineHeight": "67.26px"
+      },
+      "checks": [
+        "auto Worker",
+        "pause/reset/resume",
+        "offscreen pause",
+        "strategy story switch",
+        "no overflow",
+        "no animation/form settings",
+        "lab and classroom CTA"
+      ]
+    },
+    {
+      "width": 390,
+      "perf": {
+        "frames": 145,
+        "p95": 16.700000000000728,
+        "positions": 37
+      },
+      "fonts": {
+        "size": "40.95px",
+        "lineHeight": "48.321px"
+      },
+      "checks": [
+        "auto Worker",
+        "pause/reset/resume",
+        "offscreen pause",
+        "strategy story switch",
+        "no overflow",
+        "no animation/form settings",
+        "lab and classroom CTA"
+      ]
+    },
+    {
+      "width": 320,
+      "perf": {
+        "frames": 145,
+        "p95": 16.700000000000728,
+        "positions": 36
+      },
+      "fonts": {
+        "size": "40px",
+        "lineHeight": "47.2px"
+      },
+      "checks": [
+        "auto Worker",
+        "pause/reset/resume",
+        "offscreen pause",
+        "strategy story switch",
+        "no overflow",
+        "no animation/form settings",
+        "lab and classroom CTA"
+      ]
+    }
+  ],
+  "errors": []
+}

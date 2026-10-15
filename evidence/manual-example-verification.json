@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "example": "分数与空间的冲突",
+  "rows": [
+    {
+      "dir": "left",
+      "merge": 32,
+      "empty": 4,
+      "H": -656,
+      "Q": -624
+    },
+    {
+      "dir": "up",
+      "merge": 24,
+      "empty": 5,
+      "H": 761,
+      "Q": 785
+    }
+  ]
+}

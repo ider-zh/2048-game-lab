@@ -11,3 +11,7 @@
 ## 验证
 
 功能变更运行 npm run typecheck、npm test、npm run build；交互与布局变更使用实际浏览器验证。保留真实测试证据，说明未验证范围。
+
+## README 定位
+
+README 作为游戏与自动算法的使用手册，按实际代码解释规则、操作、策略、决策与实验。开发和构建细节放到 CONTRIBUTING.md；README 不添加部署教程或站点地址宣传，仓库 description 由用户维护。

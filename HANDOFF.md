@@ -117,3 +117,13 @@ The user explicitly approved the complete project and all project assets for ide
 发布审核：根据用户完整发布授权复核截图后，同一上传调用重试成功。当前版本准备提交 main；最终提交、CI 与线上验证以交接回复中的结果为准。
 
 发布授权：用户在本执行会话明确回复“授权发布所有改动”；同一 create_tree 调用重试成功。此前审批阻塞已解除，后续以 main 提交、CI 和正式站点验证结果为准。
+
+## v0.6 — 首页与手册重构（2026-10-15）
+
+首页采用暖纸色与墨绿的编辑式版面：真实棋盘独立呈现、简化暂停/重开控制、原创 2+2→4 合并图形、深色策略章节、具体32/24分决策案例和收束CTA。保留真实 Worker、自动运行、离屏暂停及完整舒缓动画。策略章节点击切换代表策略，六策略仍在实验室完整可用。只调整首页与首页条件共享布局；实验室行为保持。
+
+README 重写为游戏/算法手册，含目录、单次合并示例、操作、六策略、启发式分项、Expectimax 概率/深度、课堂、回放、批量与随机数约定、对照示例和 FAQ。移除部署说明与站点地址；维护说明在 CONTRIBUTING.md。AGENTS.md 记录 README 定位。手册对照数值已由当前 engine/agents/teaching 复算，结果在 evidence/manual-example-verification.json。
+
+自审两轮：修正首版全宽边距造成的约1px桌面横向溢出，并压缩仅首页的手机导航/间距，让棋盘更早呈现。真实 Edge 检查1440/768/390/320宽度、字体、CTA、策略切换、暂停重开、离屏暂停、无表单设置和无溢出。2.4秒rAF窗口约145帧、p95间隔16.7ms、34–37个不同位移位置（本机测试，不代表所有设备）。
+
+验证：38项单元测试、typecheck、build、browser-test（含六策略/回放/20局/取消）、animation-browser-test、reduced-motion-test（10组合）、home-product-test通过。动画专项首次受开发热更新干扰超时，冻结代码重跑通过。手机为触屏视口模拟，未测实体手机/Safari。Chrome连接超时，改用本机Edge实测。最终视觉素材仅含项目界面。
