@@ -6,10 +6,10 @@
     "replay actual recorded spawn and animated next step",
     "reset during replay clears active and queued motion",
     "AI pause settles in-flight accepted move then remains stopped",
-    "strategy switch, single step, 30ms AI and reset remain synchronized",
+    "strategy switch, single step, fixed-pace AI and reset remain synchronized",
     "homepage shares real tile motion and pause boundary",
     "390px real touch swipe, merge and spawn, no horizontal overflow",
-    "reduced motion commits correctly without slide/scale animation"
+    "OS reduce retains full motion and commits correctly"
   ],
   "samples": [
     {
@@ -41,93 +41,93 @@
         },
         {
           "phase": "moving",
-          "x": 448.3810729980469,
-          "transform": "matrix(1, 0, 0, 1, -1.80642, 0)"
+          "x": 448.3831481933594,
+          "transform": "matrix(1, 0, 0, 1, -1.80435, 0)"
         },
         {
           "phase": "moving",
-          "x": 441.9940490722656,
-          "transform": "matrix(1, 0, 0, 1, -8.19344, 0)"
+          "x": 441.9990234375,
+          "transform": "matrix(1, 0, 0, 1, -8.18847, 0)"
         },
         {
           "phase": "moving",
-          "x": 429.32733154296875,
-          "transform": "matrix(1, 0, 0, 1, -20.8602, 0)"
+          "x": 429.336181640625,
+          "transform": "matrix(1, 0, 0, 1, -20.8513, 0)"
         },
         {
           "phase": "moving",
-          "x": 408.9599914550781,
-          "transform": "matrix(1, 0, 0, 1, -41.2275, 0)"
+          "x": 408.9730224609375,
+          "transform": "matrix(1, 0, 0, 1, -41.2145, 0)"
         },
         {
           "phase": "moving",
-          "x": 381.9934997558594,
-          "transform": "matrix(1, 0, 0, 1, -68.194, 0)"
+          "x": 382.009033203125,
+          "transform": "matrix(1, 0, 0, 1, -68.1785, 0)"
         },
         {
           "phase": "moving",
-          "x": 353.3537292480469,
-          "transform": "matrix(1, 0, 0, 1, -96.8338, 0)"
+          "x": 353.3688049316406,
+          "transform": "matrix(1, 0, 0, 1, -96.8187, 0)"
         },
         {
           "phase": "moving",
-          "x": 327.18603515625,
-          "transform": "matrix(1, 0, 0, 1, -123.001, 0)"
+          "x": 327.1990661621094,
+          "transform": "matrix(1, 0, 0, 1, -122.988, 0)"
         },
         {
           "phase": "moving",
-          "x": 305.31732177734375,
-          "transform": "matrix(1, 0, 0, 1, -144.87, 0)"
+          "x": 305.32806396484375,
+          "transform": "matrix(1, 0, 0, 1, -144.859, 0)"
         },
         {
           "phase": "moving",
-          "x": 287.26123046875,
-          "transform": "matrix(1, 0, 0, 1, -162.926, 0)"
+          "x": 287.27001953125,
+          "transform": "matrix(1, 0, 0, 1, -162.917, 0)"
         },
         {
           "phase": "moving",
-          "x": 272.5035400390625,
-          "transform": "matrix(1, 0, 0, 1, -177.684, 0)"
+          "x": 272.5107421875,
+          "transform": "matrix(1, 0, 0, 1, -177.677, 0)"
         },
         {
           "phase": "moving",
-          "x": 260.48382568359375,
-          "transform": "matrix(1, 0, 0, 1, -189.704, 0)"
+          "x": 260.48968505859375,
+          "transform": "matrix(1, 0, 0, 1, -189.698, 0)"
         },
         {
           "phase": "moving",
-          "x": 250.55828857421875,
-          "transform": "matrix(1, 0, 0, 1, -199.629, 0)"
+          "x": 250.5631103515625,
+          "transform": "matrix(1, 0, 0, 1, -199.624, 0)"
         },
         {
           "phase": "moving",
-          "x": 242.42108154296875,
-          "transform": "matrix(1, 0, 0, 1, -207.766, 0)"
+          "x": 242.46905517578125,
+          "transform": "matrix(1, 0, 0, 1, -207.718, 0)"
         },
         {
           "phase": "moving",
-          "x": 235.81231689453125,
-          "transform": "matrix(1, 0, 0, 1, -214.375, 0)"
+          "x": 235.77969360351562,
+          "transform": "matrix(1, 0, 0, 1, -214.408, 0)"
         },
         {
           "phase": "moving",
-          "x": 230.4242401123047,
-          "transform": "matrix(1, 0, 0, 1, -219.763, 0)"
+          "x": 230.4268341064453,
+          "transform": "matrix(1, 0, 0, 1, -219.761, 0)"
         },
         {
           "phase": "moving",
-          "x": 226.14364624023438,
-          "transform": "matrix(1, 0, 0, 1, -224.044, 0)"
+          "x": 226.1228485107422,
+          "transform": "matrix(1, 0, 0, 1, -224.065, 0)"
         },
         {
           "phase": "moving",
-          "x": 222.77586364746094,
-          "transform": "matrix(1, 0, 0, 1, -227.412, 0)"
+          "x": 222.77745056152344,
+          "transform": "matrix(1, 0, 0, 1, -227.41, 0)"
         },
         {
           "phase": "moving",
-          "x": 220.2334747314453,
-          "transform": "matrix(1, 0, 0, 1, -229.954, 0)"
+          "x": 220.23464965820312,
+          "transform": "matrix(1, 0, 0, 1, -229.953, 0)"
         }
       ],
       "arrivals": [

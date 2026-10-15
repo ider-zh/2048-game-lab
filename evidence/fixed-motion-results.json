@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "reducedMotion": "reduce",
+      "legacy": null,
+      "state": {
+        "reduced": true,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "reduce",
+      "legacy": "system",
+      "state": {
+        "reduced": true,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "reduce",
+      "legacy": "reduced",
+      "state": {
+        "reduced": true,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "reduce",
+      "legacy": "fast",
+      "state": {
+        "reduced": true,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "reduce",
+      "legacy": "full",
+      "state": {
+        "reduced": true,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "no-preference",
+      "legacy": null,
+      "state": {
+        "reduced": false,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "no-preference",
+      "legacy": "system",
+      "state": {
+        "reduced": false,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "no-preference",
+      "legacy": "reduced",
+      "state": {
+        "reduced": false,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "no-preference",
+      "legacy": "fast",
+      "state": {
+        "reduced": false,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    },
+    {
+      "reducedMotion": "no-preference",
+      "legacy": "full",
+      "state": {
+        "reduced": false,
+        "mode": "full",
+        "duration": "0.36s"
+      },
+      "homeFull": true
+    }
+  ]
+}

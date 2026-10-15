@@ -103,3 +103,17 @@ Required next action: the user should directly authorize publishing the 2048 Lab
 ## Complete publication authorization — 2026-10-15
 
 The user explicitly approved the complete project and all project assets for ider-zh/2048-game-lab. Remaining screenshots were visually inspected; they show only the 2048 application. The 26.2-second recording has no audio track, and inspection across its timeline showed only the homepage and laboratory. All 20 media blobs were uploaded with matching Git hashes after the previously rejected desktop.png retry succeeded. Earlier blocker entries are historical. The final source-and-assets tree and read-only CI workflow are published together; the delivery report records the verified remote main SHA and CI outcome. No credentials, dependencies, unrelated files, permissions changes, force push or Cloudflare operation are included.
+
+## v0.5.1 — 2026-10-15
+
+正式站点 https://2048-game-lab.9992099.xyz/ 。首页/实验室固定完整舒缓动画（360ms），删除动画模式与节奏设置，旧存储和系统 reduce 均不覆盖。保留暂停/单步/重置/回放与独立算法预算。新增原创 SVG、16/32/48 PNG、含三尺寸的 ICO 和 180px Apple 图标，index.html 正确引用。generate-icons.mjs 可重建资产。
+
+38 项测试、typecheck、build 通过；10 种 OS/旧存储组合验证首页和实验室完整动画；animation-browser-test 和 browser-test 全部通过，含真实中间位移（19个不同位置）、合并、触屏、回放、暂停重置、六策略、20局评测与取消。evidence/fixed-motion-results.json、animation-results.json、browser-results.json 以及 v0.5.1 桌面/手机截图为证据。site-smoke.mjs 检查真实图标 MIME 与完整动画；默认使用生产预览5179，可传正式站点 URL。旧章节是历史记录。
+
+导航与页脚增加明确 GitHub 仓库入口；新标签使用 noopener noreferrer，桌面与触屏布局检查。
+
+文案清理：首页、页脚、README 改为直接描述功能；保留算法局限、估值口径与错误提示。根目录 AGENTS.md 记录持续文案规范。
+
+发布审核：根据用户完整发布授权复核截图后，同一上传调用重试成功。当前版本准备提交 main；最终提交、CI 与线上验证以交接回复中的结果为准。
+
+发布授权：用户在本执行会话明确回复“授权发布所有改动”；同一 create_tree 调用重试成功。此前审批阻塞已解除，后续以 main 提交、CI 和正式站点验证结果为准。

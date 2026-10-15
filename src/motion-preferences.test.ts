@@ -1,11 +1,11 @@
 import {expect,it} from 'vitest';
-import {timing} from './MotionPreferences';
-it('respects OS reduction by default, but supports explicit page opt-in',()=>{
- expect(timing('system',true).reduced).toBe(true);
- expect(timing('system',false).slide).toBe(360);
- expect(timing('full',true).slide).toBe(360);
- expect(timing('reduced',false).slide).toBe(0);
+import {FULL_MOTION,PLAYBACK_DELAY} from './MotionPreferences';
+it('fixes complete comfortable motion independent of external preferences',()=>{
+ expect(FULL_MOTION).toEqual({slide:360,merge:300,delay:160,spawn:200,feedback:380,reduced:false});
+ expect(Object.isFrozen(FULL_MOTION)).toBe(true);
+ expect(PLAYBACK_DELAY).toBe(500);
 });
-it('leaves time for recoil and delayed spawn in both animated modes',()=>{
- for(const mode of ['full','fast'] as const){const t=timing(mode,true);expect(t.slide).toBeGreaterThanOrEqual(180);expect(t.delay).toBeGreaterThan(0);expect(t.feedback).toBeGreaterThanOrEqual(t.delay+t.spawn);expect(t.feedback).toBeGreaterThanOrEqual(t.merge);}
+it('allows merge recoil and delayed spawn to finish',()=>{
+ expect(FULL_MOTION.feedback).toBeGreaterThanOrEqual(FULL_MOTION.delay+FULL_MOTION.spawn);
+ expect(FULL_MOTION.feedback).toBeGreaterThanOrEqual(FULL_MOTION.merge);
 });

@@ -1,12 +1,12 @@
 import {useLayoutEffect,useRef,useState,type CSSProperties} from 'react';
 import {type Board,type Dir} from './engine';
 import {type Motion} from './motion';
-import {useMotionPreferences,timing} from './MotionPreferences';
+import {FULL_MOTION} from './MotionPreferences';
 import './animated-board.css';
 type TileStyle=CSSProperties&Record<`--${string}`,string|number>;
 const color=(v:number)=>v?{background:`hsl(${42-Math.min(11,Math.log2(v))*2} ${24+Math.log2(v)*4}% ${94-Math.min(13,Math.log2(v))*5}%)`,color:v>=128?'#fff':'#443e34'}:{};
 export function AnimatedBoard({board,motion,onCommit,onFinish,onMove,label='2048 棋盘'}:{board:Board;motion:Motion|null;onCommit:(id:number)=>void;onFinish:(id:number)=>void;onMove?:(d:Dir)=>void;label?:string}){
- const preferences=useMotionPreferences(),currentTiming=timing(preferences.mode,preferences.systemReduced);
+ const currentTiming=FULL_MOTION;
  const [phase,setPhase]=useState<'start'|'moving'|'settled'>('start'),[pace,setPace]=useState(currentTiming),touch=useRef([0,0]),commitRef=useRef(onCommit),finishRef=useRef(onFinish);commitRef.current=onCommit;finishRef.current=onFinish;
  // A mode change takes effect on the next transaction, without restarting a step.
  useLayoutEffect(()=>{if(!motion)return;const t=currentTiming;setPace(t);setPhase('start');let raf1=0,raf2=0,timer:ReturnType<typeof setTimeout>|undefined,feedback:ReturnType<typeof setTimeout>|undefined;

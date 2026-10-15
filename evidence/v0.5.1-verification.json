@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-15",
+  "unitTests": 38,
+  "typecheck": "passed",
+  "build": "passed",
+  "browserRegression": "passed",
+  "animationRegression": "passed; 19 distinct intermediate positions",
+  "osAndLegacyStorageCombinations": 10,
+  "productionPreview": {
+    "icons": "ICO/SVG/16px/32px/Apple: 200, correct image MIME",
+    "motion": "full 360ms under OS reduce",
+    "links": "header/footer popup target, noopener noreferrer, desktop1440/mobile390, no overflow",
+    "note": "External GitHub response intercepted for deterministic click-target testing; real repository accessibility verified separately through connector."
+  },
+  "publication": "User explicitly authorized all changes; identical create_tree retry succeeded",
+  "liveObservedVersion": "v0.5"
+}

@@ -18,5 +18,4 @@
 @keyframes tile-spawn{0%{transform:scale(.72);opacity:0}65%{transform:scale(1.025);opacity:1}100%{transform:scale(1);opacity:1}}
 .animated-board[data-motion=reduced] .merge-arrival,.animated-board[data-motion=reduced] .spawn-arrival{outline:2px solid #74945b;outline-offset:-2px}
 .live-demo .animated-board .tile,.live-demo .moving-tile{font-size:32px}.live-demo .animated-board{--gap:8px;--pad:9px}
-.motion-settings{display:flex;gap:20px;align-items:center;padding:14px 0;border-bottom:1px solid #e1e5dc;font-size:12px;color:#626f59}.motion-settings label{display:flex;align-items:center;gap:10px;margin:0;white-space:nowrap}.motion-settings select{width:auto;min-width:165px}.motion-settings small{display:block;color:#88917f;font-size:10px;margin-top:5px}
-@media(max-width:700px){.moving-tile{font-size:30px}.live-demo .animated-board .tile,.live-demo .moving-tile{font-size:28px}.motion-settings{align-items:start;flex-direction:column;gap:8px;font-size:11px}}
+@media(max-width:700px){.moving-tile{font-size:30px}.live-demo .animated-board .tile,.live-demo .moving-tile{font-size:28px}}
